@@ -14,6 +14,7 @@ public class AppController {
 	@GetMapping("/getName")
 	public ResponseEntity<String> getName()
 	{
+		
 		return new ResponseEntity<String>("My Name is Rahul", HttpStatus.OK);
 	}
 }
